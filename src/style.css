@@ -17,15 +17,16 @@
 * {
   scroll-behavior: smooth;
 }
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #fffde7 0.89%,
-    #fff9c4 17.23%,
-    #fff59d 42.04%,
-    #fff176 55.12%,
-    #ffee58 71.54%,
-    #fdd835 100%
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,14 +37,15 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #fffde7 -43.27%,
-    #fff9c4 -21.24%,
-    #fff59d 12.19%,
-    #fff176 29.82%,
-    #ffee58 51.94%,
-    #fdd835 90.29%
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
   );
 }
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -53,36 +55,13 @@
   );
 }
 
-
-.bg-gray-gradient {
+.bg-black-gradient-2 {
   background: linear-gradient(
-    153.47deg,
-    var(--primary-grey) 0%,
-    var(--secondary-grey) 100%
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
   );
-}
-
-.bg-discount-gradient {
-  background: linear-gradient(125.17deg, var(--secondary-grey) 0%, var(--primary-grey) 100%);
-}
-
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(255, 215, 0, 0.1) 0%, var(--primary-yellow) 100%);
-  filter: blur(123px);
-}
-
-.pink__gradient {
-  background: linear-gradient(90deg, var(--secondary-yellow) 0%, var(--primary-yellow) 100%);
-  filter: blur(900px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .bg-gray-gradient {
@@ -145,38 +124,17 @@ html {
   background: var(--black-gradient);
 }
 
-:root {
-  --scroll-speed: 60s;
-  --scroll-width: 200%;
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
 }
 
-@media (max-width: 768px) {
-  :root {
-    --scroll-speed: 30s;
-    --scroll-width: 400%;
-  }
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
 }
 
-.scroll-container {
-  width: 100%;
-  overflow: hidden;
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
 }
-
-.scroll-content {
-  display: flex;
-  width: max-content; /* Allows content to determine width */
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-scroll {
-  animation: scroll var(--scroll-speed) linear infinite;
-}
-
