@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/soloscale-webcite/static/css/main.6ae88f7f.css",
-    "main.js": "/soloscale-webcite/static/js/main.13e2cf38.js",
+    "main.css": "/soloscale-webcite/static/css/main.a886b8dc.css",
+    "main.js": "/soloscale-webcite/static/js/main.88a9ae85.js",
     "static/js/453.f5b81fe0.chunk.js": "/soloscale-webcite/static/js/453.f5b81fe0.chunk.js",
     "static/media/robot.png": "/soloscale-webcite/static/media/robot.b3924d6a4b8b19ef9de9.png",
     "static/media/magnet.gif": "/soloscale-webcite/static/media/magnet.0badce0243cbe516c4a9.gif",
@@ -9,12 +9,17 @@
     "static/media/card.png": "/soloscale-webcite/static/media/card.a2e9df80e8b4106cace9.png",
     "static/media/time.webp": "/soloscale-webcite/static/media/time.be32264ae2dc25769455.webp",
     "static/media/SoloScale.png": "/soloscale-webcite/static/media/SoloScale.8be6e281124ae7bcce80.png",
+    "static/media/techlit.png": "/soloscale-webcite/static/media/techlit.f2dba3c6f8a9a2651402.png",
     "static/media/file.png": "/soloscale-webcite/static/media/file.8a3c5a3df662a7871810.png",
     "static/media/robot_hand.jpg": "/soloscale-webcite/static/media/robot_hand.99642cb3116c410c93c5.jpg",
+    "static/media/quantum.png": "/soloscale-webcite/static/media/quantum.58651b5b241a484aef31.png",
     "static/media/websizenewlogo.png": "/soloscale-webcite/static/media/websizenewlogo.71145fce77c1febeb3ce.png",
+    "static/media/alove.png": "/soloscale-webcite/static/media/alove.0080667c627ded64cfdf.png",
     "static/media/soloscalel.png": "/soloscale-webcite/static/media/soloscalel.ed40d8935208f865c180.png",
+    "static/media/universal.png": "/soloscale-webcite/static/media/universal.f45f92778d14eb2d7e4b.png",
     "static/media/people01.png": "/soloscale-webcite/static/media/people01.a40f2b61208976a6d644.png",
     "static/media/stanford-p-500.png": "/soloscale-webcite/static/media/stanford-p-500.647295ab0134726f1104.png",
+    "static/media/Arriety.png": "/soloscale-webcite/static/media/Arriety.00f9ced04f2dc8fd2d61.png",
     "static/media/google.svg": "/soloscale-webcite/static/media/google.b596752253d8523d78d4a2691564e4b4.svg",
     "static/media/apple.svg": "/soloscale-webcite/static/media/apple.e3713dc89ad84e690ab38eae55922d3e.svg",
     "static/media/alovie.png": "/soloscale-webcite/static/media/alovie.c01150150d90bd0cb7db.png",
@@ -35,12 +40,12 @@
     "index.html": "/soloscale-webcite/index.html",
     "static/media/quotes.svg": "/soloscale-webcite/static/media/quotes.bf8b8cdbd3787290c55ce07bd484771a.svg",
     "static/media/facebook.svg": "/soloscale-webcite/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
-    "main.6ae88f7f.css.map": "/soloscale-webcite/static/css/main.6ae88f7f.css.map",
-    "main.13e2cf38.js.map": "/soloscale-webcite/static/js/main.13e2cf38.js.map",
+    "main.a886b8dc.css.map": "/soloscale-webcite/static/css/main.a886b8dc.css.map",
+    "main.88a9ae85.js.map": "/soloscale-webcite/static/js/main.88a9ae85.js.map",
     "453.f5b81fe0.chunk.js.map": "/soloscale-webcite/static/js/453.f5b81fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ae88f7f.css",
-    "static/js/main.13e2cf38.js"
+    "static/css/main.a886b8dc.css",
+    "static/js/main.88a9ae85.js"
   ]
 }
