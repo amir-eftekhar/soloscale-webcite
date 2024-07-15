@@ -35,6 +35,11 @@ import buildspace from "./buildspace.webp"
 import Alovie from "./alovie.png"
 import SoloScale from "./SoloScale.png"
 import soloscalel from "./soloscalel.png"
+import Arriety from "./Arriety.png"
+import Universal from "./universal.png"
+import techlit from "./techlit.png"
+import quantum from "./quantum.png"
+import alove from "./alove.png"
 export {
   airbnb,
   bill,
@@ -42,12 +47,17 @@ export {
   card,
   coinbase,
   dropbox,
+  Arriety,
   logo,
+  alove,
+  quantum,
+  techlit,
   quotes,
   robot,
   SoloScale,
   robot_hand,
   soloscalel,
+  Universal,
   time,
   magnet,
   stanford,

@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, CursorEffect, CTA, Footer, Navbar, Stats, Clients, ContactSection, Testimonials, Hero, Plans, Help, SampleServices} from "./components";
+import { Billing, Business, CardDeal, CursorEffect, Calendly,CTA, Footer, Navbar, Stats, Clients, Testimonials2, ContactSection, Testimonials, Hero, Plans, Help, SampleServices} from "./components";
 import { stanford, websize, buildspace, Alovie } from "./assets";
 const App = () => {
   const partners = [
@@ -24,15 +24,16 @@ const App = () => {
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
+        {/*<Stats />*/}
         <Business />
         <Help />
         <SampleServices/>
         <Clients partners={partners} />        
         <Testimonials />
-        
+        <Testimonials2/>
         <CTA />
         <Plans />
+        <Calendly/>
         <ContactSection/>
         <Footer />
         {/*<CursorEffect/>*/}

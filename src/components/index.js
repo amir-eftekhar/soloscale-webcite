@@ -17,6 +17,8 @@ import { Button1 } from "./Button";
 import CursorEffect from "./Cursor";
 import Help from "./Help";
 import SampleServices from "./SampleServices";
+import Testimonials2 from "./Testomonials2";
+import Calendly from "./calendly";
 export {
   Navbar,
   Billing,
@@ -26,6 +28,8 @@ export {
   CursorTrail,
 CustomCursor,
   Button1,
+  Testimonials2,
+  Calendly,
   Clients,
   CursorEffect,
   CTA,

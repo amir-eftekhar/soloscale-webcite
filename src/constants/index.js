@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, Alovie, alove, quantum, techlit  } from "../assets";
 
 export const navLinks = [
   {
@@ -55,26 +55,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "AI automation is a powerful tool that can transform your business, making it more efficient and effective.",
-    name: "client one",
-    title: "Founder & Leader",
-    img: people01,
+      "SoloScale Solutions has helped us modernize not only our website, but our operations as well. They have used their versatile services to generate quality leads for our business, while taking off the burden of our customer service team. Their AI customer service agent is able to emulate behavior of our real customer service team so that we could spend time on priority operations. The SoloScale Solutions team is extremely responsive and has been able to adapt to our needs rapidly",
+    name: "Chandra Chellapilla",
+    title: "CEO, Alovie Technologies",
+    img: alove,
   },
   {
     id: "feedback-2",
     content:
-      "Integrating AI automation has significantly streamlined our operations and boosted our productivity.",
-    name: "Client two",
-    title: "Founder & Leader",
-    img: people02,
+      "SoloScale did an excellent job at creating and optimizing our company chatbot at Quantum Automation. He was readily available for our needs and performed at an optimal level.",
+    name: "Syed Hussain",
+    title: "CEO, Quantum AI ",
+    img: quantum,
   },
   {
     id: "feedback-3",
     content:
-      "AI automation is revolutionizing the industry, driving efficiency and innovation.",
-    name: "Client three",
-    title: "Founder & Leader",
-    img: people03,
+      "Before talking to SoloScale, acquiring volunteers was extremely difficult for us, as we had a small team. SoloScale took advantage of our website traffic by converting more leads through their robust automated agents, which allowed us to grow our volunteer base. ",
+    name: "Lakulish Saini",
+    title: "COO, TechLit",
+    img: techlit,
   },
 ];
 

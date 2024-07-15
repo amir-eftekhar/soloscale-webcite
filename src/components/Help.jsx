@@ -25,12 +25,19 @@ const Help = () => {
   ];
 
   return (
-    <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <section
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+    >
       <div className="flex flex-col w-full">
-        <h2 className={styles.heading2}>How We Can Help</h2>
+      <div className={`${styles.flexCenter} flex-col w-full`}>
+        <div className="flex justify-center">
+          <h2 className={styles.heading2}>How We Can Help</h2>
+        </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
-          Transform your business operations with our customized solutions. Optimize lead generation and elevate customer engagement for sustainable growth.
+          Transform your business operations with our customized solutions. Optimize
+          lead generation and elevate customer engagement for sustainable growth.
         </p>
+      </div>
         {problems_solutions.map((item, index) => (
           <ProblemSolution key={index} problem={item.problem} solution={item.solution} />
         ))}

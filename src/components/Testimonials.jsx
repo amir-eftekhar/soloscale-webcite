@@ -8,11 +8,12 @@ const Testimonials = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        What People are <br className="sm:block hidden" /> saying about us
+      Client Testimonials <br className="sm:block hidden" /> and Stories
+
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-        Our AI automation solutions have transformed our business operations, making processes more efficient and scalable.
+        These are what clients that worked with SoloScale had to say about us
         </p>
       </div>
     </div>

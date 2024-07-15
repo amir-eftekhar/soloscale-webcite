@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const useTypingEffect = (words, typingSpeed = 100, deletingSpeed = 75, pauseDuration = 750) => {
+const useTypingEffect = (words, typingSpeed = 70, deletingSpeed = 70, pauseDuration = 1250) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -39,7 +39,7 @@ const TypingAnimation = ({ words, textSize = 'text-4xl' }) => {
 
   return (
     <div className={`${textSize} font-bold text-gradient`}>
-      {text}<span className="animate-blink">|</span>
+      {text}<span className="animate-blink text-[0.7em] ml-1 relative-top-[0.7em] ">|</span>
     </div>
   );
 };

@@ -24,8 +24,8 @@ const SampleServices = () => {
       description: "Provide instant, accurate responses to customer inquiries around the clock with our advanced AI chatbot, improving customer satisfaction and retention."
     },
     {
-      title: "Predictive Analytics",
-      description: "Leverage the power of AI to analyze trends, predict future outcomes, and make data-driven decisions for your business."
+      title: "Automatic Onboarding",
+      description: "Have a hassle-free onboarding process that allows you to get clients on board in minutes effectively"
     }
   ];
 
