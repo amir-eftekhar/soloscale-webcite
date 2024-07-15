@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "SoloScale did an excellent job at creating and optimizing our company chatbot at Quantum Automation. He was readily available for our needs and performed at an optimal level.",
+      "SoloScale did an excellent job at creating and optimizing our company chatbot at Quantum Automation. He was readily available for our needs and performed at an optimal level.  ",
     name: "Syed Hussain",
     title: "CEO, Quantum AI ",
     img: quantum,
@@ -168,16 +168,16 @@ export const socialMedia = [
     icon: instagram,
     link: "https://www.instagram.com/",
   },
-  {
+  /*{
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/",
-  },
-  {
+  },*/
+  /*{
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/",
-  },
+  },*/
   {
     id: "social-media-4",
     icon: linkedin,

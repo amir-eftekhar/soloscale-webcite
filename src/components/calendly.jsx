@@ -1,20 +1,28 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 
 const Calendly = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
 
-    return (
-        <section>
-        <div>
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
-<div class="calendly-inline-widget" data-url="https://calendly.com/soloscalesolutions/30min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  return (
+    <section>
+      <div>
+        <div
+          className="calendly-inline-widget"
+          data-url="https://calendly.com/soloscalesolutions/30min?hide_gdpr_banner=1"
+          style={{ minWidth: '320px', height: '700px' }}
+        />
+      </div>
+    </section>
+  );
+};
 
-        </div>
-
-        </section>
-    )
-}
-
-
-export default Calendly
+export default Calendly;

@@ -2,35 +2,32 @@ import React from 'react';
 import styles from "../style";
 import { Button1 } from "./Button";
 
-const PlanCard = ({ title, features, price }) => (
+const PlanCard = ({ title, content }) => (
   <div className="border border-yellow-400 hover:border-yellow-600 mr-4 rounded-xl overflow-hidden relative bg-yellow-gradient shadow-lg flex flex-col items-center p-6 w-full hover:-translate-y-4 transform transition duration-300 hover:shadow-2xl mb-4 sm:mb-0" style={{ boxShadow: '0 0 20px 10px rgba(253, 216, 53, 0.5)' }}>
-    <h3 className={`${styles.heading2} text-gray-800 mb-4 text-center`}>
+    <h3 className={`${styles.heading3} text-gray-800 mb-4 text-center`}>
       {title}
     </h3>
-    <h4 className="text-gray-800 text-5xl font-bold mb-4">
-      {price}
-    </h4>
-    <Button1 className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 w-1/2 h-full mb-4" text="Select"/>
-    <ul className="list-none w-full">
-      {features.map((feature, index) => (
-        <li key={index} className="flex items-center border-b border-yellow-200 py-2">
-          <div className="bg-yellow-500 rounded-full p-1">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-4 w-4 text-white">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <span className="text-gray-800 ml-2">{feature}</span>
-        </li>
-      ))}
-    </ul>
+    <p className="text-gray-400 text-lg mb-4 flex-grow">
+      {content}
+    </p>
+    {/*<Button1 className="bg-yellow-500 hover:bg-yellow-600 text-gray-800 w-1/2 h-full mt-4" text="Select"/>*/}
   </div>
 );
 
 const Plans = () => (
   <section className="flex flex-col sm:flex-row justify-between">
-    <PlanCard title="Basic Plan" features={['Feature 1', 'Feature 2', 'Feature 3']} price="$10" />
-    <PlanCard title="Premium Plan" features={['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4']} price="$100" />
-    <PlanCard title="Enterprise Plan" features={['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5']} price="Custom" />
+    <PlanCard 
+      title="One time installation fee" 
+      content="We'll handle everything to get our AI up and running in your business. It's a one-time fee that covers you for life. We'll make sure your systems are ready for whatever the future throws at them and running at their absolute best."
+    />
+    <PlanCard 
+      title="Monthly Maintenance fee" 
+      content="Don't worry about keeping your AI systems in top shape - we've got you covered. Our team will keep an eye on things, push out updates, and be there if you need a hand. We'll make sure everything's humming along smoothly so you can focus on what you do best."
+    />
+    <PlanCard 
+      title="3rd Party Service Costs" 
+      content="We know it takes more than just our AI to get the job done. That's why we've bundled in all the extras you'll need - subscriptions, licenses, you name it. We use tools from the best in the business to make sure you've got all the tools to succeed."
+    />
   </section>
 );
 
