@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/soloscale-webcite/static/css/main.a886b8dc.css",
-    "main.js": "/soloscale-webcite/static/js/main.4c1a522b.js",
+    "main.css": "/soloscale-webcite/static/css/main.d1ae5a17.css",
+    "main.js": "/soloscale-webcite/static/js/main.c0e14807.js",
     "static/js/453.f5b81fe0.chunk.js": "/soloscale-webcite/static/js/453.f5b81fe0.chunk.js",
     "static/media/robot.png": "/soloscale-webcite/static/media/robot.b3924d6a4b8b19ef9de9.png",
     "static/media/magnet.gif": "/soloscale-webcite/static/media/magnet.0badce0243cbe516c4a9.gif",
@@ -40,12 +40,12 @@
     "index.html": "/soloscale-webcite/index.html",
     "static/media/quotes.svg": "/soloscale-webcite/static/media/quotes.bf8b8cdbd3787290c55ce07bd484771a.svg",
     "static/media/facebook.svg": "/soloscale-webcite/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
-    "main.a886b8dc.css.map": "/soloscale-webcite/static/css/main.a886b8dc.css.map",
-    "main.4c1a522b.js.map": "/soloscale-webcite/static/js/main.4c1a522b.js.map",
+    "main.d1ae5a17.css.map": "/soloscale-webcite/static/css/main.d1ae5a17.css.map",
+    "main.c0e14807.js.map": "/soloscale-webcite/static/js/main.c0e14807.js.map",
     "453.f5b81fe0.chunk.js.map": "/soloscale-webcite/static/js/453.f5b81fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a886b8dc.css",
-    "static/js/main.4c1a522b.js"
+    "static/css/main.d1ae5a17.css",
+    "static/js/main.c0e14807.js"
   ]
 }
