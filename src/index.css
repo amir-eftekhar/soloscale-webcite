@@ -180,3 +180,6 @@ html {
   animation: scroll var(--scroll-speed) linear infinite;
 }
 
+.pause-animation {
+  animation-play-state: paused;
+}

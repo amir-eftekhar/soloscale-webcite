@@ -3,7 +3,7 @@ import styles from "../style";
 import { Button1 } from "./Button";
 
 const PlanCard = ({ title, content }) => (
-  <div className="border border-yellow-400 hover:border-yellow-600 mr-4 rounded-xl overflow-hidden relative bg-yellow-gradient shadow-lg flex flex-col items-center p-6 w-full hover:-translate-y-4 transform transition duration-300 hover:shadow-2xl mb-4 sm:mb-0" style={{ boxShadow: '0 0 20px 10px rgba(253, 216, 53, 0.5)' }}>
+  <div className="border border-yellow-400 hover:border-yellow-600 lg:mr-8  lg:ml-8 rounded-xl overflow-hidden relative bg-yellow-gradient shadow-lg flex flex-col items-center p-6 w-full hover:-translate-y-4 transform transition duration-300 hover:shadow-2xl mb-4 sm:mb-0" style={{ boxShadow: '0 0 20px 10px rgba(253, 216, 53, 0.5)' }}>
     <h3 className={`${styles.heading3} text-gray-800 mb-4 text-center`}>
       {title}
     </h3>

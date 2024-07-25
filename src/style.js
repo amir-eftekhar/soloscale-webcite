@@ -16,6 +16,7 @@ const styles = {
     marginY: "sm:my-16 my-6",
     marginblg: "mb-6 mb-[200px]",
     marginbmd: "mb-6 mb-[100px]",
+    marginbsm:"mb-6 mb-[70px]",
     planCard: "bg-transparent h-[200px] font-cool text-white border border-white rounded-md",
   };
   
